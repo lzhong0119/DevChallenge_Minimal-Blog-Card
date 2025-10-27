@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(60, 17%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.block-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+    width: 350px;
+    overflow: hidden;
+    text-align: left;
+    padding: 16px;
+}
+
+.block-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.cell{
+    margin: 16px 0px;
+    font-size: 12px;
+    color: hsl(278, 72%, 34%);
+    border-radius: 50px; 
+    background-color: hsl(263, 100%, 96%);
+    max-width: fit-content;
+    padding: 4px 16px;
+    font-weight: 700;
+}
+
+.block-card h1 {
+    font-size: 20px;
+    padding-bottom: 6px;
+    color: hsl(220, 17%, 10%);
+}
+
+.block-card__description {
+    font-size: 15px;
+    color: hsl(220, 11%, 49%);
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.block-card__author {
+  border-top: 1px solid hsl(210, 46%, 95%);
+  margin: 0 -16px;   /* cancel out card padding */
+  padding: 20px 16px 4px;
+  font-size: 14px;
+}
